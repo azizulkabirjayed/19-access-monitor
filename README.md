@@ -46,7 +46,6 @@ Access Monitor is a small Windows app that shows which apps on your PC can use t
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-# How To Run apk/exe file
 # How To Run The .exe File
 
 No Python, no setup — just download and double-click.

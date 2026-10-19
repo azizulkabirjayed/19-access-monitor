@@ -45,7 +45,24 @@ Access Monitor is a small Windows app that shows which apps on your PC can use t
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# How To Run
+
+# How To Run apk/exe file
+# How To Run The .exe File
+
+No Python, no setup — just download and double-click.
+
+1. Go to the [Releases](../../releases) page
+2. Download `AccessMonitor.exe`
+3. Double-click `AccessMonitor.exe` to open the app
+
+> Windows may show a blue "Windows protected your PC" warning — this happens because the app isn't code-signed, not because something is wrong. Click **"More info"**, then **"Run anyway"**.
+>
+> Want to turn the Network switch on or off too? Right-click `AccessMonitor.exe` and choose **"Run as administrator"** instead of double-clicking it.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+# How To Run from source code
 
 This project already comes with a built `access_monitor_core.dll` file, so you can run the app right away — no compiling, just these 3 steps.
 

@@ -49,18 +49,18 @@ Access Monitor is a small Windows app that shows which apps on your PC can use t
 
 This project already comes with a built `access_monitor_core.dll` file, so you can run the app right away — no compiling, just these 3 steps.
 
-**1. Install Python**
+**Step1. Install Python**
 ```bash
 winget install -e --id Python.Python.3.12
 ```
 (Or download it from [python.org](https://www.python.org/downloads/). While installing, tick **"Add python.exe to PATH"**.)
 
-**2. Install PySide6**
+**Step2. Install PySide6**
 ```bash
 pip install PySide6
 ```
 
-**3. Run the app**
+**Step3. Run the app**
 ```bash
 cd project_folder_path
 python access_monitor_gui.py
@@ -72,7 +72,7 @@ That's it — the app opens using the `.dll` file already sitting in the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Creating The .dll File (Optional)
+**Step4 (Optional).Creating The .dll File**
 
 You only need this if you changed `access_monitor_core.c` yourself. The `.dll` file already in this project was made the same way — you don't have to redo it just to run the app.
 

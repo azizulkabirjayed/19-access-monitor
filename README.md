@@ -47,42 +47,28 @@ Access Monitor is a small Windows app that shows which apps on your PC can use t
 
 # How To Run
 
-The `.dll` file is already made and included in this project, so you don't need to build anything first — just follow the steps below.
+This project already comes with a built `access_monitor_core.dll` file, so you can run the app right away — no compiling, just these 3 steps.
 
-### Step 1: Install Python
-
-1. Open **PowerShell** or **Command Prompt**
-2. Run this command:
+**1. Install Python**
 ```bash
 winget install -e --id Python.Python.3.12
 ```
-(Or download it by hand from [python.org](https://www.python.org/downloads/).)
+(Or download it from [python.org](https://www.python.org/downloads/). While installing, tick **"Add python.exe to PATH"**.)
 
-3. While installing, tick the box **"Add python.exe to PATH"** — this lets you type `python` from any folder later.
-
-### Step 2: Install PySide6
-
-PySide6 is the toolkit the app's window is built with.
-
-1. Open Command Prompt
-2. Run this command:
+**2. Install PySide6**
 ```bash
 pip install PySide6
 ```
 
-### Step 3: Run the app
-
-1. Open Command Prompt
-2. Go to the project folder:
+**3. Run the app**
 ```bash
 cd project_folder_path
-```
-3. Run the app:
-```bash
 python access_monitor_gui.py
 ```
 
-(If you also want to turn the Network switch on or off, open Command Prompt as Administrator before doing this step.)
+That's it — the app opens using the `.dll` file already sitting in the project folder.
+
+> Want to use the Network switch too? Open Command Prompt **as Administrator** before step 3.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,3 +90,4 @@ gcc -shared -s -O2 -Wall -D_UNICODE -DUNICODE access_monitor_core.c -o access_mo
 4. Open your project folder — you will see a new `access_monitor_core.dll` file there
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+

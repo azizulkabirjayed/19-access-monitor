@@ -76,7 +76,7 @@ winget install -e --id Python.Python.3.12
 pip install PySide6
 ```
 
-**Step3. Run the app**
+**Step3. open cmd and run below commands**
 ```bash
 cd project_folder_path
 python access_monitor_gui.py
